@@ -7,7 +7,7 @@ binaries, no secrets, no credentials**:
 | File | What it is |
 |---|---|
 | `AIM.Workbench.Desktop_<version>_x64.msix` | Signed MSIX package of the desktop app (client only — contains no secrets). |
-| `AIM.Workbench.Test.cer` | Self-signed test certificate that signed the matching `.msix`. A fresh cert is created per build; the updater installs the new cert BEFORE the new package. |
+| `AIM.Workbench.Test-<version>.cer` | Self-signed test certificate that signed the matching `.msix`. A fresh cert is created per build, so the filename carries the version - an old release stays installable after a new publish. The updater installs the new cert BEFORE the new package. |
 | `version.json` | Update manifest the app polls: latest version, download URLs, SHA-256 hashes. |
 
 The source lives in the PRIVATE repo `syfazel/aim-workbench-desktop`
