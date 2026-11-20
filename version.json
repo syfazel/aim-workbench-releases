@@ -1,8 +1,8 @@
-{
-  "version": "0.5.0.0",
-  "msixUrl": "https://raw.githubusercontent.com/syfazel/aim-workbench-releases/main/AIM.Workbench.Desktop_0.5.0.0_x64.msix",
-  "cerUrl": "https://raw.githubusercontent.com/syfazel/aim-workbench-releases/main/AIM.Workbench.Test.cer",
-  "msixSha256": "c9d21e917380d0a43b616662b979ccc7e6fbd864363324c8662990d686aa98f0",
-  "cerSha256": "354523fe92eb49af13be4eada0d309a70b225f7c02dcd1d0ce94aa5eb192b7d9",
-  "releaseNotes": "Trial build 0.5.0.0 — first cloud-built MSIX (run 7, commit 684dab7). TEST data only."
+﻿{
+    "version":  "0.5.1.0",
+    "msixUrl":  "https://raw.githubusercontent.com/syfazel/aim-workbench-releases/main/AIM.Workbench.Desktop_0.5.1.0_x64.msix",
+    "cerUrl":  "https://raw.githubusercontent.com/syfazel/aim-workbench-releases/main/AIM.Workbench.Test.cer",
+    "msixSha256":  "9b87c148268575525a82b48dcc22e25b1ae2f0583caf837ae175268b09ad2fbe",
+    "cerSha256":  "59b122eaa730e0dfc5707bbc2d32afc73b557d15db4379fe9410d507b2ae8185",
+    "releaseNotes":  "Trial build 0.5.1.0 - one-click installer + in-app auto-update. TEST data only."
 }
